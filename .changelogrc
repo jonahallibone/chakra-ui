@@ -1,7 +1,20 @@
-## 17-05-2022
+## 18-05-2022
 
-`@chakra-ui/react@2.0.2`
+`@chakra-ui/react@2.0.3`
 
-**Color Mode** `v2.0.2`
+- Ensure types used by other chakra packages are properly exported and imported so
+  that `src` directory is not referenced in the emitted type declarations.
 
-- Fix return value of color mode script
+**Descendant** `v3.0.1`
+
+- Ensure types used by other chakra packages are properly exported and imported so
+  that `src` directory is not referenced in the emitted type declarations.
+
+**Theme** `v2.0.2`
+
+- Ensure types used by other chakra packages are properly exported and imported so
+  that `src` directory is not referenced in the emitted type declarations.
+
+**Focus Lock** `v2.0.1`
+
+- Upgrade dependency `react-focus-lock` to be compatible with React 18
