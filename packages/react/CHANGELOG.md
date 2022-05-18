@@ -1,5 +1,24 @@
 # Change Log
 
+## 2.0.3
+
+### Patch Changes
+
+- [#6046](https://github.com/chakra-ui/chakra-ui/pull/6046)
+  [`3319eca8b`](https://github.com/chakra-ui/chakra-ui/commit/3319eca8bf02b892ea345a68294110919e2963cb)
+  Thanks [@Averethel](https://github.com/Averethel)! - Ensure types used by
+  other chakra packages are properly exported and imported so that `src`
+  directory is not referenced in the emitted type declarations.
+- Updated dependencies
+  [[`3319eca8b`](https://github.com/chakra-ui/chakra-ui/commit/3319eca8bf02b892ea345a68294110919e2963cb)]:
+  - @chakra-ui/theme@2.0.2
+  - @chakra-ui/accordion@2.0.1
+  - @chakra-ui/menu@2.0.1
+  - @chakra-ui/pin-input@2.0.1
+  - @chakra-ui/tabs@2.0.1
+  - @chakra-ui/toast@2.0.3
+  - @chakra-ui/modal@2.0.1
+
 ## 2.0.2
 
 ### Patch Changes
